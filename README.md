@@ -1,6 +1,8 @@
 <!-- INFO -->
 ## TI03-APPS
 [![Release](https://img.shields.io/badge/realease-v.3.1.0-68B7EB)]()
+
+## Deskripsi
 Aplikasi Mempermudah Kelas Teknologi Informasi Ti-03 tentang Jadwal dan Tugas Perkuliahaan.
 
 <!-- CONTACT -->
