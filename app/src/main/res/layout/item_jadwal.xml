@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:elevation="10dp"
+    android:gravity="center_vertical"
+    app:cardBackgroundColor="@color/item_jadwal"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/main"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jadwal_matkul"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menggambar Lanjut" />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:tintMode="@color/white"
+                    android:src="@drawable/ic_schedule"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/jadwal_jam"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:50" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:tintMode="@color/white"
+                    android:src="@drawable/ic_dosen"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/jadwal_dosen"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ifraweri Raja Mangkuto HP,S.Pd.,M.Kom" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:tintMode="@color/white"
+                    android:src="@drawable/ic_lokasi"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/jadwal_lokasi"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MEET" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
