@@ -5,9 +5,7 @@
 Aplikasi Mempermudah Kelas Teknologi Informasi Ti-03 tentang Jadwal dan Tugas Perkuliahaan.
 
 <!-- Usage -->
-## Database Setting
-Firebase Realtime Database EXAMPLE
-<br/>
+## Firebase Realtime Database EXAMPLE
 JSON INFO
 ```JSON
 "info" : {
@@ -17,7 +15,6 @@ JSON INFO
       "info_peringatan" : "awdad"
     },
 ```
-<br/>
 JSON JADWAL
 ```JSON
 "jadwal" : {
@@ -30,7 +27,6 @@ JSON JADWAL
       }
     },
 ```
-<br/>
 JSON TUGAS
 ```JSON
 "tugas" : {
